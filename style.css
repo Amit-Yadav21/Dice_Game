@@ -1,5 +1,5 @@
 body {
-    background-image: url('/image/diceImage.webp');
+    background-image: url('./image/diceImage.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
