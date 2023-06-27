@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
 body {
-    background-image: url('image/diceImage.webp');
+    background-image: url('./image/diceImage.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,7 +35,7 @@ h2 {
     font-style: italic;
 }
 .player{
-    margin-top: -2rem;
+    margin-top: -1rem;
 }
 
 img {
