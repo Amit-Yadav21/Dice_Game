@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(36, 35, 35);
+    background-image: url('image/diceImage.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
 }
 .container{
     align-items: center;
@@ -8,27 +12,25 @@ body {
 h1 {
     margin-left: 450px;
     margin-top: 40px;
-    color: white;
+    color: black;
     font-family: cursive;
     font-style: italic;
 }
 
 h2 {
-    margin-left: 300px;
+    margin-left: 320px;
     margin-top: 50px;
-    color: white;
+    color: black;
+    border: 2px solid white;
+    background-color: green;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     font-family: cursive;
     display: inline-flex;
     font-style: italic;
 }
 .player{
     margin-top: -2rem;
-}
-
-.player2 {
-    margin-right: 100px;
-    border-left-width: 30px;
-    padding-left: 50px;
 }
 
 img {
